@@ -5,7 +5,7 @@ import { Mouse3d } from '../scripts/Mouse3d';
 import { Assets, TCanvasBase } from '../scripts/TCanvasBase';
 import { publicPath } from '../scripts/utils';
 import { ColorMaskPass } from './ColorMaskPass';
-import { FxaaPass } from './fxaaPass';
+import { FxaaPass } from './FxaaPass';
 import { shaders } from './shaderChunk';
 import { Simulator } from './Simulator';
 
