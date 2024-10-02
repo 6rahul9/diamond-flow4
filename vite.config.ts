@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
 	console.log('⚓ ' + mode)
 	return {
 		root: './src',
-		base: mode === 'development' ? '/' : '/rhombus-flow/',
+		base: mode === 'development' ? '/' : '/diamond-flow/',
 		publicDir: '../public',
 		plugins: [
 			glsl(),
